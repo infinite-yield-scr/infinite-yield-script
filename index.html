@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Initializing · Premium Loader</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ─── Peaceful Orbs ─── -->
+  <div class="orb orb-1"></div>
+  <div class="orb orb-2"></div>
+  <div class="orb orb-3"></div>
+
+  <!-- ─── Subtle Particles ─── -->
+  <div class="particles">
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+  </div>
+
+  <!-- ─── Main Content ─── -->
+  <div class="content">
+
+    <!-- Diamond Gem Logo -->
+    <div class="logo-wrap">
+      <div class="logo-ring"></div>
+      <div class="logo-icon">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#D4AF37"/>
+              <stop offset="100%" stop-color="#F2E6C9"/>
+            </linearGradient>
+          </defs>
+          <path d="M12 2L2 9L12 22L22 9L12 2Z" stroke="url(#grad)" stroke-width="1.8" stroke-linejoin="round"/>
+          <path d="M12 2V22" stroke="url(#grad)" stroke-width="0.8" opacity="0.3"/>
+          <path d="M2 9L22 9" stroke="url(#grad)" stroke-width="0.8" opacity="0.3"/>
+          <circle cx="12" cy="12" r="2" fill="#D4AF37" opacity="0.3">
+            <animate attributeName="r" values="2;3.5;2" dur="2.5s" repeatCount="indefinite"/>
+            <animate attributeName="opacity" values="0.3;0.05;0.3" dur="2.5s" repeatCount="indefinite"/>
+          </circle>
+        </svg>
+      </div>
+    </div>
+
+    <!-- Text -->
+    <div class="text-group">
+      <div class="title">
+        <span class="highlight">Initializing</span>
+      </div>
+      <div class="sub-text">
+        Secure environment with enterprise-grade encryption and zero-trust protocols.
+      </div>
+    </div>
+
+    <!-- Trust Tags -->
+    <div class="trust-tags">
+      <div class="trust-tag">
+        <span class="icon">✦</span>
+        TLS 1.3 <span class="label">• Secure</span>
+      </div>
+      <div class="trust-tag">
+        <span class="icon">✦</span>
+        AES-256 <span class="label">• Encrypted</span>
+      </div>
+      <div class="trust-tag">
+        <span class="icon">✦</span>
+        Zero Trust <span class="label">• Verified</span>
+      </div>
+      <div class="trust-tag">
+        <span class="icon">✦</span>
+        Workspace <span class="label">• Ready</span>
+      </div>
+    </div>
+
+    <!-- Progress -->
+    <div class="progress-section">
+      <div class="status-row">
+        <div class="status-left">
+          <span class="status-dot"></span>
+          <span id="stageText">Authenticating</span>
+        </div>
+        <span class="percent-text" id="percentText">0%</span>
+      </div>
+      <div class="progress-track">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+    </div>
+
+    <!-- Info Cards -->
+    <div class="info-grid">
+      <div class="info-card">
+        <div class="label">Status</div>
+        <div class="value green">● Online</div>
+      </div>
+      <div class="info-card">
+        <div class="label">Security</div>
+        <div class="value gold">Level 3</div>
+      </div>
+      <div class="info-card">
+        <div class="label">Uptime</div>
+        <div class="value blue">99.99%</div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-text">
+      Zero Trust · AES-256 · Real-time Monitoring
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
